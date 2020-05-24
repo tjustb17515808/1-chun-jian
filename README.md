@@ -1,2 +1,0 @@
-# yushi
-yushiwuzheng
