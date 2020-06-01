@@ -2,73 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=m, initial-scale=1.0">
-    <meta name="keywords" content="生活化,美食,电影,游戏,好玩的好吃的"/>
-    <title>纯+简&nbsp;&nbsp;&nbsp;订制你的生活</title>
-   <style>
-       #denglu{float: left;}
-       #zhuce{float: left;}
-       #geren{float: left;}
-   </style>
-   <style>
-       #tupian{float: left;}
-   </style>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纯+简</title>
+    <meta name="keywords" content="生活化，美食，电影，游戏">
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        header{
+            width: 800px;
+            height:60px;
+            background: url(imag/chang1.jpg) no-repeat top center;
+            border-right-style: dotted;
+            border-bottom-style: dotted;
+            border-left-style: dotted;
+            border-top-style: dotted;
+        }
+        nav{
+            clear: both;
+            width: 780px;
+            height: 40px;
+            padding: 0 10px;
+            margin: 0;
+            list-style: none;
+        }
+        nav ul li{
+            float: left;
+            display: block;
+            width: 82px;
+            padding-right: 2px;
+            height: 40px;
+            padding: 0;
+            margin: 0;
+            display: inline;
+            background:url(imag/chang.jpg)no-repeat right center;
+        }
+        nav .last{
+            background: none;
+        }
+        nav ul li a{
+            display: block;
+            width: 82px;
+            height: 40px;
+            padding-top: 10px;
+            font-size: 15px;
+            color: lightslategray;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 700;
+            outline: none;
+        }
+        #logo{
+            margin-top: 3em;
+            float:left;
+            margin-left: 3em;
+        }
+        #sosuo{
+            float: left;
+            
+        }
+        #header{
+            position: relative;
+            padding: 80px 0 27px 0;
+        }
+        #search{
+            float: left;
+            width: 460px;
+            margin: 16px 0 0 0;
+            display: block;
+            position: relative;
+            margin-top: 1em;
+            margin-left:5em;
+        }
+        .sf_search{
+            width: 100%!important;
+            margin-left: 6em;
+        }
+        .sf_input{
+            width: 300px;
+            height: 35px;
+        }
+        .sf_submit{
+            width: 70px;
+            height: 30px;
+            color:black;
+        }
+        #fenlei{
+            text-align: center;
+            color: dimgrey;
+        }
+        #logo-put{
+            background-color: white;
+            margin-top:3em;
+            width: 1200px;
+            height: 180px;
+        }
+    </style>
 </head>
-<body  leftmargin="100" rightmargin="100" bottommargin="200">
-         <div id= "content">
-             <div id="denglu">请登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-             <div id="zhuce">免费注册&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-             <div id="geren">
-                 <select>
-                    <optgroup>
-                        <option>个人中心</option>
-                        <option>我的评价</option>
-                        <option>我的收藏</option>
-                        <option>设置</option>
-                    </optgroup>
-                 </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             </div>
-             <div id="kefu">
-                <select>
-                    <optgroup>
-                        <option>客服中心</option>
-                        <option>联系客服</option>
-                        <option>平台规则</option>
-                        <option>帮助中心</option>
-                        <option></option>
-                    </optgroup>
-                </select>
-             </div>
-         </div>
+<body leftmargin="100" rightmargin="100" bottommargin="200">
+    <div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">请登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">个人中心</a></li>
+                <li><a href="#">我的收藏</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">平台规则</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li class="last" style="background: lightblue;">
+                    <a href="#">设置</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <div id="logo-put">
         <div id="logo">
-             <div id="tupian">
-                 <img src="imag/logo1.jpg"/>
-             </div>
-             <div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div>
-             <div id="sousuo" style="color: brown;" >
-                 <form>
-                     <input type="search" id="textfield1" name="textfield1" value="搜索一下"  size="50">
-                     <input type="submit" name="sousuo" value="搜索">
-                 </form>
-             </div>
-             <div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div>
-         </div>
-         <div id="fenlei">
-             全部分类
-         </div>
-        <table>
-            <tr>
-                <th>美食</th>
-                <td>
-                   <select name="meishi">
-                       <option>火锅</option>
-                       <option>私房菜 </option>
-                       <option>面包房</option>
-                   </select>
-                </td>
-            </tr>
-        </table>
+            <img src="imag/logo.jpg"/>
+        </div>
+        <div id="header" class="center">
+            <div id="search">
+                <div class="sf_container" id="">
+                    <form role="" method="" id="" class="" action="">
+                        <div>
+                            <label class="screen-reader-text" for="s"></label>
+                            <div class="sf_search" style="width: 760px; border: 0px solid ">
+                                 <span class="sf_block">
+                                     <input class="sf_input" autocomplete="off" type="search"
+                                     placeholder="输入搜索" name="" container="">
+                                     <input class="sf_submit" type="submit" value="搜索">
+                                 </span>
+                                 <div id="fenlei">
+                                     <h3>
+                                         全部分类
+                                     </h3>
+                                 </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quanbu">
+        <div class="meishi">
 
+        </div>
+    </div>
 </body>
 </html>
